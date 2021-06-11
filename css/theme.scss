@@ -212,6 +212,10 @@ header{
         font-size: 18px;
         letter-spacing: 0;
         line-height: 20px;
+        font-size: 14px;
+        @media(min-width:1200px){
+          font-size: 18px;
+        }
       }
     }
     .inner-col2{
@@ -672,6 +676,7 @@ header{
           letter-spacing: 0;
           line-height: 32px;
           padding-left:0;
+          cursor: pointer;
           &:before{
             display:none;
           }

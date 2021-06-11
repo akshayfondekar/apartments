@@ -167,7 +167,11 @@ header {
     font-family: Roboto;
     font-size: 18px;
     letter-spacing: 0;
-    line-height: 20px; }
+    line-height: 20px;
+    font-size: 14px; }
+    @media (min-width: 1200px) {
+      .navbar .navbar-collapse .inner-col1 input {
+        font-size: 18px; } }
   @media (min-width: 992px) {
     .navbar .navbar-collapse .inner-col2 {
       max-width: 66.7%;
@@ -524,7 +528,8 @@ header {
         font-weight: 500;
         letter-spacing: 0;
         line-height: 32px;
-        padding-left: 0; }
+        padding-left: 0;
+        cursor: pointer; }
         .blocks .apartment .facilities-block .extra .more:before {
           display: none; }
 .blocks .review {
